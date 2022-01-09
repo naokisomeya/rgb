@@ -4,6 +4,7 @@ def to_hex(r, g, b)
   end
 end
 
+
 def to_ins(hex)
   hex.scan(/\w\w/).map(&:hex)
 end
